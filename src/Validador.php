@@ -6,8 +6,8 @@ namespace SuportesBalanceados;
 
 class Validador
 {
-  public function digaOiMundo(): string
+  public function validate(string $value): bool
   {
-    return "Oi, mundo!";
+    return true;
   }
 }
